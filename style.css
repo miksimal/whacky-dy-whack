@@ -65,6 +65,11 @@ h1 {
   transition:all 0.4s;
 }
 
+.mole:active {
+  background-color: red;
+  transform: rotateX(130deg);
+}
+
 .hole.up .mole {
   top: 0;
 }

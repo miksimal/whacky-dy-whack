@@ -1,7 +1,6 @@
 # whacky-dy-whack
 
 ## Functionality to add:
-+ Add an effect when you whack someone
 
 + Add scoreboard that keep track of your personal high score (use of local storage)
 

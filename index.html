@@ -79,6 +79,9 @@
     score++;
     this.parentNode.classList.remove('up');
     scoreBoard.textContent = score;
+    this.classList.add('boinked');
+    setTimeout(() => this.classList.remove('boinked'), 500)
+
   }
 
   moles.forEach(mole => mole.addEventListener('click', boink));

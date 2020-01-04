@@ -35,6 +35,7 @@ h1 {
   flex-wrap: wrap;
   margin: 0 auto;
   cursor: url('club2.png'), auto;
+  
 }
 
 .hole {
@@ -65,9 +66,9 @@ h1 {
   transition:all 0.4s;
 }
 
-.mole:active {
-  background-color: red;
-  transform: rotateX(130deg);
+.boinked {
+  background-color: rgb(255, 136, 0);
+  transform: rotateY(90deg);
 }
 
 .hole.up .mole {
